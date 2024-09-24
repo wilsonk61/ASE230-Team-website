@@ -29,7 +29,7 @@ $team = [
                 'position' => 'Shift Leader',
                 'company' => 'Dominos',
                 'time' => '2021 - 2022',
-                'description' => 'During my time at dominoes I was the lead Customer Service Representative and I was on the front lines of customer complaints and other various calls. I lead a small team to ensure all outgoing product met the Dominoes standard.',
+                'description' => 'During my time at Dominoes I was the lead Customer Service Representative and I was on the front lines of customer complaints and other various calls. I led a small team to ensure all outgoing product met the Dominoes standard.',
                 'achievements' => [
                     'Managed a Local Dominoes and oversaw operations.',
                     'Outperformed other local Dominoes in sales revenue by over 250% by producing high quality products in high quantity.',
@@ -42,7 +42,7 @@ $team = [
                 'position' => 'Shift Leader',
                 'company' => 'Jersey Mikes',
                 'time' => '2023 - 2024',
-                'description' => 'During my time at Jersey Mikes I was a shift leader and ensured everything was ran smoothly with the best quality',
+                'description' => 'During my time at Jersey Mikes I was a shift leader and ensured everything was run smoothly with the best quality',
                 'achievements' => [
                     'Oversaw operations',
                     'Ensured Efficiency',
@@ -59,9 +59,9 @@ $team = [
                 'link' => '#'
             ],
             [
-                'title' => 'HomeLab IDS',
+                'title' => 'Project 2',
                 'image' => 'assets/images/onion.PNG',
-                'description' => 'Constructed and IDS on my home network to manage alerts in the security console.',
+                'description' => 'Brief description of Project 2.',
                 'link' => '#'
             ]
         ],
@@ -80,10 +80,10 @@ $team = [
             ]
         ],
 		'other_skills' => [
-            'Elementary Network Seurity',
+            'Elementary Network Security',
             'Networking',
             'Linux Command Line',
-            'Linux Administartion',
+            'Linux Administration',
             'Windows Administration',
             'Cyber Security Fundamentals',
             'Elementary Japanese N5',
@@ -98,7 +98,7 @@ $team = [
 		'awards' => [
             [
                 'name' => 'Made University Presidents List',
-                'description' => 'To make the university presidents list you must achive all A\'s throughout your college career'
+                'description' => 'To make the university presidents list you must achieve all A\'s throughout your college career'
             ]
         ],
 		'languages' => [
@@ -107,7 +107,7 @@ $team = [
                 'proficiency' => 'Native'
             ],
             [
-                'name' => 'japanese',
+                'name' => 'Japanese',
                 'proficiency' => 'Beginner'
             ]
         ],
@@ -119,203 +119,265 @@ $team = [
     ],
 	
 	
-	'eli' => [
-        'image' => 'assets/images/tim.jpg',
-		'name' => 'Eli',
-        'role' => 'Security Analyst',
-        'page' => 'detail.php?id=eli',
-        'email' => 'eli61@nku.edu',
-		'phone' => '643-735-8933',
-		'summary' => 'Driven Cybersecurity major with a strong foundation in AWS, Python, Computer Networking, and Linux. Adept at working with a range of programming languages including Java, HTML, JavaScript, and CSS. Passionate about leveraging my skills in realworld applications, I am actively seeking internship opportunities to enhance my practical experience in the cybersecurity industry',
-		'linkedin' => 'https://www.linkedin.com/in/elinichols0591/',
-		'github' => 'https://github.com/eli123',
-		'website' => 'eli.com',
+	'JaneDoe2' => [
+        'image' => 'assets/images/janedoe2.jpg',
+		'name' => 'janedoe2 name',
+        'role' => 'janedoe2 role',
+        'page' => 'detail.php?id=janedoe2',
+        'email' => 'janedoe2@nku.edu',
+		'phone' => 'janedoe2 phone',
+		'summary' => 'janedoe2 summary',
+		'linkedin' => 'janedoe2 linkedin',
+		'github' => 'janedoe2 github',
+		'website' => 'janedoe2 website',
         'work_experience' => [
             [
-                'position' => 'Student Researcher',
-                'company' => 'Discovery Lab Global',
-                'time' => 'April 2023 - August 2023',
-                'description' => 'Researched the importance and implementations of AI',
+                'position' => 'janedoe2 position',
+                'company' => 'janedoe2 company',
+                'time' => 'janedoe2 time',
+                'description' => 'janedoe2 description',
                 'achievements' => [
-                    'Led a four-member team to integrate OpenAI\'s ChatGPT into SecondLife, posing as an educational tool for students to use within the virtual platform',
-                    'Researched and innovated a system for a client-server chatbot architecture',
-                    'Coordinated with Program Director for strategic alignment',
-                    'Navigated technical challenges involving outdated and emerging technologies'
+                    'janedoe2 achievement 1',
+                    'janedoe2 achievement 2'
                 ],
-                'technologies' => ['AI', 'Virtual Platforms', 'GPT']
+                'technologies' => ['janedoe2 technology 1', 'janedoe2 technology 2']
             ],
 			[
-                'position' => 'Project Manager',
-                'company' => 'INTERalliance',
-                'time' => 'November 2021 - March 2022',
-                'description' => 'During my time at INTERalliance I studied and leardned how to utilize slack and asana',
+                'position' => 'janedoe2 position 2',
+                'company' => 'janedoe2 company',
+                'time' => 'janedoe2 time',
+                'description' => 'janedoe2 description',
                 'achievements' => [
-                    'Co-orchestrated meetings and applied project management fundamentals',
-                    'Utilized Slack and Asana for task coordination and schedule alignment',
-                    'Improved professional email etiquette and communication, ensuring efficient and effective team collaboration',
+                    'janedoe2 achievement 1',
+                    'janedoe2 achievement 2'
                 ],
-                'technologies' => ['Point of Sale (POS) Systems', 'Online Ordering Platforms', 'Inventory Management Software']
+                'technologies' => ['janedoe2 technology 1', 'janedoe2 technology 2']
             ]
         ],
-		
         'projects' => [
             [
-                'title' => 'Oasis - Software Engineer',
-                'image' => 'assets/images/mirror.png',
-                'description' => 'Created Oasis, a \'magic mirror\' that serves as a virtual AI assistant through the integration of Raspberry Pi, MagicMirror² software, and ChatGPT',
-                'link' => '#'
-            ],
-            [
-                'title' => 'Auto-Oats - Junior Software Engineer',
-                'image' => 'assets/images/oats.PNG',
-                'description' => 'Engineered an IoT-based oatmeal machine using Raspberry Pi and Python to automate breakfast preparation',
+                'title' => 'janedoe2 project title',
+                'image' => 'assets/images/janedoe2project.png',
+                'description' => 'janedoe2 project description',
                 'link' => '#'
             ]
         ],
-		'skills' => [
+        'skills' => [
             [
-                'name' => 'Python',
+                'name' => 'janedoe2 skill 1',
                 'progress' => 70
             ],
+			[
+                'name' => 'janedoe2 skill 2',
+                'progress' => 70
+            ]
+        ],
+        'other_skills' => [
+            'janedoe2 other skill 1',
+			'janedoe2 other skill 2'
+        ],
+        'education' => [
             [
-                'name' => 'Linux',
-                'progress' => 66
+                'degree' => 'janedoe2 degree',
+                'organization' => 'janedoe2 organization',
+                'time' => 'janedoe2 education time'
+            ]
+        ],
+        'awards' => [
+            [
+                'name' => 'janedoe2 award 1',
+                'description' => 'janedoe2 award description'
+            ]
+        ],
+        'languages' => [
+            [
+                'name' => 'janedoe2 language',
+                'proficiency' => 'janedoe2 proficiency'
             ],
-            [
-                'name' => 'AWS',
-                'progress' => 30
+			[
+                'name' => 'janedoe2 language 2',
+                'proficiency' => 'janedoe2 proficiency 2'
             ]
         ],
-		'other_skills' => [
-            'Web Development',
-            'Computer Networking',
-            'Artificial Intelligence',
-            'Linux Administartion'
-        ],
-		'education' => [
-            [
-                'degree' => 'Bachelors Of Science - CyberSecurity',
-                'organization' => 'Northern Kentucky University',
-                'time' => 'August 2022 - May 2025'
-            ]
-        ],
-		'awards' => [
-            [
-                'name' => 'Made University Deans List',
-                'description' => 'To make the university Deans list you must achive all A\'s and B\'s throughout your college career'
-            ]
-        ],
-		'languages' => [
-            [
-                'name' => 'English',
-                'proficiency' => 'Native'
-            ],
-        ],
-		'interests' => [
-            'AI',
-            'Politics',
+        'interests' => [
+            'janedoe2 interest 1'
         ]
     ],
 	
-	
-	'tim' => [
-        'image' => 'assets/images/chuck.jpg',
-		'name' => 'Tim',
-        'role' => 'Finance Expert',
-        'page' => 'detail.php?id=tim',
-        'email' => 'youngt12@mymail.nku.edu',
-		'phone' => '683-715-8533',
-		'summary' => 'A dedicated and results-oriented Finance major at Northern Kentucky University with a projected graduation in May 2026. Possesses strong experience in customer service and financial transactions through a current role as a Bank Teller at General Electric Credit Union.',
-		'linkedin' => 'HTTPS://linkedin-TimYoung',
-		'github' => 'https://github.com/tim1234',
-		'website' => 'tim.com',
+	'JaneDoe3' => [
+        'image' => 'assets/images/janedoe3.jpg',
+		'name' => 'janedoe3 name',
+        'role' => 'janedoe3 role',
+        'page' => 'detail.php?id=janedoe3',
+        'email' => 'janedoe3@nku.edu',
+		'phone' => 'janedoe3 phone',
+		'summary' => 'janedoe3 summary',
+		'linkedin' => 'janedoe3 linkedin',
+		'github' => 'janedoe3 github',
+		'website' => 'janedoe3 website',
         'work_experience' => [
             [
-                'position' => 'Bank Teller',
-                'company' => 'General Electric Credit Union',
-                'time' => 'October 2023-Present',
-                'description' => 'Assisted with transactions within the credit union.',
+                'position' => 'janedoe3 position',
+                'company' => 'janedoe3 company',
+                'time' => 'janedoe3 time',
+                'description' => 'janedoe3 description',
                 'achievements' => [
-                    'Serve and assist members with deposits, withdrawals, transfers, and making loan payments',
-                    'Guide and make appointments for members with questions such as interest rates on savings accounts/CDs, home mortgages, and fraud on their account',
-                    'Maintain high-level conversations with members about their savings goals and the different accounts we offer'
+                    'janedoe3 achievement 1',
+                    'janedoe3 achievement 2'
                 ],
-                'technologies' => ['Core Banking Software', 'ATM and Teller Systems', 'Fraud Detection Tools']
+                'technologies' => ['janedoe3 technology 1', 'janedoe3 technology 2']
             ],
 			[
-                'position' => 'Shift Leader',
-                'company' => 'Jersey Mikes Subs',
-                'time' => 'September 2021-October 2023',
-                'description' => 'During my time at Jersey Mikes I was a shift leader and ensured everything was ran smoothly with the best quality',
+                'position' => 'janedoe3 position 2',
+                'company' => 'janedoe3 company',
+                'time' => 'janedoe3 time',
+                'description' => 'janedoe3 description',
                 'achievements' => [
-                    'Lead and trained the staff on operations and daily activities',
-                    'Served & greeted over 300 customers per shift, taking orders, and meeting their needs',
-                    'Resolved customer complaints in a professional manner, including store credits and credit card refunds.',
+                    'janedoe3 achievement 1',
+                    'janedoe3 achievement 2'
                 ],
-                'technologies' => ['Point of Sale (POS) Systems', 'Labor Management Software', 'Training Platforms']
+                'technologies' => ['janedoe3 technology 1', 'janedoe3 technology 2']
             ]
         ],
-		
         'projects' => [
             [
-                'title' => 'Stock Ticker',
-                'image' => 'assets/images/stock.png',
-                'description' => 'Created a HTML Stock ticker that uses API grabs for specific stocks.',
+                'title' => 'janedoe3 project title',
+                'image' => 'assets/images/janedoe3project.png',
+                'description' => 'janedoe3 project description',
                 'link' => '#'
             ]
         ],
-		'skills' => [
+        'skills' => [
             [
-                'name' => 'Microsoft Excel ',
-                'progress' => 85
-            ],
-            [
-                'name' => 'data analyzation',
-                'progress' => 62
-            ],
-            [
-                'name' => 'Applied investment analysis',
-                'progress' => 67
-            ]
-        ],
-		'other_skills' => [
-            'stock market research ',
-            'decision-making'
-        ],
-		'education' => [
-            [
-                'degree' => 'Bachelor of Science - Finance',
-                'organization' => 'Northern Kentucky University',
-                'time' => 'August 2022 - May 2025'
-            ]
-        ],
-		'awards' => [
-            [
-                'name' => 'Edge Award',
-                'description' => '•	Maintained a GPA above 2.5 or higher; Resided outside of Kentucky'
+                'name' => 'janedoe3 skill 1',
+                'progress' => 70
             ],
 			[
-                'name' => 'Communication Certification',
-                'description' => 'Initiated conversations with members by asking questions to better understand their financial needs'
+                'name' => 'janedoe3 skill 2',
+                'progress' => 70
             ]
         ],
-		'languages' => [
-            [
-                'name' => 'English',
-                'proficiency' => 'Native'
-            ],
+        'other_skills' => [
+            'janedoe3 other skill 1',
+			'janedoe3 other skill 2'
         ],
-		'interests' => [
-            'Stock market',
-            'Finance',
+        'education' => [
+            [
+                'degree' => 'janedoe3 degree',
+                'organization' => 'janedoe3 organization',
+                'time' => 'janedoe3 education time'
+            ]
+        ],
+        'awards' => [
+            [
+                'name' => 'janedoe3 award 1',
+                'description' => 'janedoe3 award description'
+            ]
+        ],
+        'languages' => [
+            [
+                'name' => 'janedoe3 language',
+                'proficiency' => 'janedoe3 proficiency'
+            ],
+			[
+                'name' => 'janedoe3 language 2',
+                'proficiency' => 'janedoe3 proficiency 2'
+            ]
+        ],
+        'interests' => [
+            'janedoe3 interest 1'
+        ]
+    ],
+	
+	'JaneDoe4' => [
+        'image' => 'assets/images/janedoe4.jpg',
+		'name' => 'janedoe4 name',
+        'role' => 'janedoe4 role',
+        'page' => 'detail.php?id=janedoe4',
+        'email' => 'janedoe4@nku.edu',
+		'phone' => 'janedoe4 phone',
+		'summary' => 'janedoe4 summary',
+		'linkedin' => 'janedoe4 linkedin',
+		'github' => 'janedoe4 github',
+		'website' => 'janedoe4 website',
+        'work_experience' => [
+            [
+                'position' => 'janedoe4 position',
+                'company' => 'janedoe4 company',
+                'time' => 'janedoe4 time',
+                'description' => 'janedoe4 description',
+                'achievements' => [
+                    'janedoe4 achievement 1',
+                    'janedoe4 achievement 2'
+                ],
+                'technologies' => ['janedoe4 technology 1', 'janedoe4 technology 2']
+            ],
+			[
+                'position' => 'janedoe4 position 2',
+                'company' => 'janedoe4 company',
+                'time' => 'janedoe4 time',
+                'description' => 'janedoe4 description',
+                'achievements' => [
+                    'janedoe4 achievement 1',
+                    'janedoe4 achievement 2'
+                ],
+                'technologies' => ['janedoe4 technology 1', 'janedoe4 technology 2']
+            ]
+        ],
+        'projects' => [
+            [
+                'title' => 'janedoe4 project title',
+                'image' => 'assets/images/janedoe4project.png',
+                'description' => 'janedoe4 project description',
+                'link' => '#'
+            ]
+        ],
+        'skills' => [
+            [
+                'name' => 'janedoe4 skill 1',
+                'progress' => 70
+            ],
+			[
+                'name' => 'janedoe4 skill 2',
+                'progress' => 70
+            ]
+        ],
+        'other_skills' => [
+            'janedoe4 other skill 1',
+			'janedoe4 other skill 2'
+        ],
+        'education' => [
+            [
+                'degree' => 'janedoe4 degree',
+                'organization' => 'janedoe4 organization',
+                'time' => 'janedoe4 education time'
+            ]
+        ],
+        'awards' => [
+            [
+                'name' => 'janedoe4 award 1',
+                'description' => 'janedoe4 award description'
+            ]
+        ],
+        'languages' => [
+            [
+                'name' => 'janedoe4 language',
+                'proficiency' => 'janedoe4 proficiency'
+            ],
+			[
+                'name' => 'janedoe4 language 2',
+                'proficiency' => 'janedoe4 proficiency 2'
+            ]
+        ],
+        'interests' => [
+            'janedoe4 interest 1'
         ]
     ]
 ];
 
-
 $id = $_GET['id'];
 
-$person = $team[$id]
+$person = $team[$id];
 ?>
 <!DOCTYPE html>
 <html lang="en"> 
