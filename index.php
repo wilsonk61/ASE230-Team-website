@@ -6,16 +6,22 @@ $team = [
         'page' => 'detail.php?id=kyle',
         'image' => 'assets/images/kyle.png'
     ],
-    'tim' => [
-        'name' => 'Tim',
-        'role' => 'Finance Expert',
-        'page' => 'detail.php?id=tim',
+    'JaneDoe2' => [
+        'name' => 'JaneDoe2',
+        'role' => 'Role2',
+        'page' => 'detail.php?id=JaneDoe2',
         'image' => 'assets/images/chuck.jpg'
     ],
-    'eli' => [
-        'name' => 'Eli',
-        'role' => 'Security Expert',
-        'page' => 'detail.php?id=eli',
+	'JaneDoe3' => [
+        'name' => 'JaneDoe3',
+        'role' => 'Role3',
+        'page' => 'detail.php?id=JaneDoe3',
+        'image' => 'assets/images/chuck.jpg'
+    ],
+    'JaneDoe4' => [
+        'name' => 'JaneDoe4',
+        'role' => 'Role4',
+        'page' => 'detail.php?id=JaneDoe4',
         'image' => 'assets/images/tim.jpg'
     ]
 ];
@@ -89,4 +95,3 @@ $team = [
 
 </body>
 </html> 
-
