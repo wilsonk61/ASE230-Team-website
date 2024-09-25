@@ -1,27 +1,33 @@
 <?php
+require('functions.php');
+
 $team = [
     'kyle' => [
         'name' => 'Kyle',
         'role' => 'Security Analyst',
         'page' => 'detail.php?id=kyle',
+		'dob' => '2004-05-24',
         'image' => 'assets/images/kyle.png'
     ],
     'JaneDoe2' => [
         'name' => 'JaneDoe2',
         'role' => 'Role2',
         'page' => 'detail.php?id=JaneDoe2',
+		'dob' => '1999-07-15',
         'image' => 'assets/images/chuck.jpg'
     ],
 	'JaneDoe3' => [
         'name' => 'JaneDoe3',
         'role' => 'Role3',
         'page' => 'detail.php?id=JaneDoe3',
+		'dob' => '1991-07-15',
         'image' => 'assets/images/chuck.jpg'
     ],
     'JaneDoe4' => [
         'name' => 'JaneDoe4',
         'role' => 'Role4',
         'page' => 'detail.php?id=JaneDoe4',
+		'dob' => '1994-07-15',
         'image' => 'assets/images/tim.jpg'
     ]
 ];
@@ -70,7 +76,9 @@ $team = [
                         <div class="row p-4 justify-content-center justify-content-md-between">
                             <div class="primary-info col-auto">
                                 <h1 class="name mt-0 mb-1 text-white text-uppercase"><?= $member['name']; ?></h1>
-                                <div class="title mb-3"><?= $member['role']; ?></div>
+                                <div class="title mb-1"><?= $member['role']; ?></div>
+								<?= ' (Age: ' . calculateAge($member['dob']) . ')<br>'; ?>
+								<div style="margin: 10px;"></div>
                                 <a href="<?= $member['page']; ?>" class="btn btn-secondary">See full profile</a>
                             </div><!--//primary-info-->
                             <div class="secondary-info col-auto mt-2"></div>
