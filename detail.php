@@ -1,9 +1,12 @@
 <?php
+require('functions.php');
+
 $team = [
     'kyle' => [
         'image' => 'assets/images/kyle.png',
 		'name' => 'Kyle',
         'role' => 'Security Analyst',
+		'dob' => '2004-05-24',
         'page' => 'detail.php?id=kyle',
         'email' => 'wilsonk61@nku.edu',
 		'phone' => '502-724-2401',
@@ -123,6 +126,7 @@ $team = [
         'image' => 'assets/images/janedoe2.jpg',
 		'name' => 'janedoe2 name',
         'role' => 'janedoe2 role',
+		'dob' => '1999-07-15',
         'page' => 'detail.php?id=janedoe2',
         'email' => 'janedoe2@nku.edu',
 		'phone' => 'janedoe2 phone',
@@ -208,6 +212,7 @@ $team = [
         'image' => 'assets/images/janedoe3.jpg',
 		'name' => 'janedoe3 name',
         'role' => 'janedoe3 role',
+		'dob' => '1991-07-15',
         'page' => 'detail.php?id=janedoe3',
         'email' => 'janedoe3@nku.edu',
 		'phone' => 'janedoe3 phone',
@@ -293,6 +298,7 @@ $team = [
         'image' => 'assets/images/janedoe4.jpg',
 		'name' => 'janedoe4 name',
         'role' => 'janedoe4 role',
+		'dob' => '1994-07-15',
         'page' => 'detail.php?id=janedoe4',
         'email' => 'janedoe4@nku.edu',
 		'phone' => 'janedoe4 phone',
@@ -417,7 +423,9 @@ $person = $team[$id];
 					    <div class="row p-4 justify-content-center justify-content-md-between">
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?= $person['name'] ?></h1>
-							    <div class="title mb-3"><?= $person['role']?></div>
+							    <div class="title mb-1"><?= $person['role']?></div>
+								<?= 'Age: ' . calculateAge($person['dob']); ?>
+								<div style="margin: 10px;"></div>
 							    <ul class="list-unstyled">
 								    <li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?= $person['email']?></a></li>
 								    <li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i><?= $person['phone']?></a></li>
@@ -580,4 +588,4 @@ $person = $team[$id];
         <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> Kyle</small>
     </footer>
 </body>
-</html> 
+</html>
