@@ -6,11 +6,11 @@ $team = [
         'page' => 'detail.php?id=kyle',
         'image' => 'assets/images/kyle.png'
     ],
-    'JaneDoe2' => [
-        'name' => 'JaneDoe2',
-        'role' => 'Role2',
-        'page' => 'detail.php?id=JaneDoe2',
-        'image' => 'assets/images/chuck.jpg'
+    'Jackson' => [
+        'name' => 'Jackson',
+        'role' => 'System Administrator',
+        'page' => 'detail.php?id=Jackson',
+        'image' => 'assets/images/Jackson.jpg'
     ],
 	'JaneDoe3' => [
         'name' => 'JaneDoe3',
@@ -59,9 +59,9 @@ $team = [
 	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
 			<h1 class="py-4 text-center">OUR AMAZING TEAM</h1>
 			
-			
+		
 		    <?php foreach ($team as $member): ?>
-            <header class="resume-header pt-4 pt-md-0">
+            <header class="resume-header mt-4 pt-4 pt-md-0">
                 <div class="row">
                     <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
                         <img class="picture" src="<?= $member['image']; ?>" alt="<?= $member['name']; ?>">
