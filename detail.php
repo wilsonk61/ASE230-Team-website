@@ -2,7 +2,7 @@
 $team = [
     'kyle' => [
         'image' => 'assets/images/kyle.png',
-		'name' => 'Kyle',
+	'name' => 'Kyle',
         'role' => 'Security Analyst',
         'page' => 'detail.php?id=kyle',
         'email' => 'wilsonk61@nku.edu',
@@ -65,7 +65,7 @@ $team = [
                 'link' => '#'
             ]
         ],
-		'skills' => [
+	'skills' => [
             [
                 'name' => 'Python',
                 'progress' => 70
@@ -79,7 +79,7 @@ $team = [
                 'progress' => 70
             ]
         ],
-		'other_skills' => [
+	'other_skills' => [
             'Elementary Network Security',
             'Networking',
             'Linux Command Line',
@@ -88,20 +88,20 @@ $team = [
             'Cyber Security Fundamentals',
             'Elementary Japanese N5',
         ],
-		'education' => [
+	'education' => [
             [
                 'degree' => 'Bachelors Of Science - CyberSecurity',
                 'organization' => 'Northern Kentucky University',
                 'time' => 'August 2022 - May 2026'
             ]
         ],
-		'awards' => [
+	'awards' => [
             [
                 'name' => 'Made University Presidents List',
                 'description' => 'To make the university presidents list you must achieve all A\'s throughout your college career'
             ]
         ],
-		'languages' => [
+	'languages' => [
             [
                 'name' => 'English',
                 'proficiency' => 'Native'
@@ -111,102 +111,126 @@ $team = [
                 'proficiency' => 'Beginner'
             ]
         ],
-		'interests' => [
+	'interests' => [
             'Skiing',
             'Virtual Reality',
             'Server Management'
         ]
     ],
 	
-	
-	'JaneDoe2' => [
-        'image' => 'assets/images/janedoe2.jpg',
-		'name' => 'janedoe2 name',
-        'role' => 'janedoe2 role',
-        'page' => 'detail.php?id=janedoe2',
-        'email' => 'janedoe2@nku.edu',
-		'phone' => 'janedoe2 phone',
-		'summary' => 'janedoe2 summary',
-		'linkedin' => 'janedoe2 linkedin',
-		'github' => 'janedoe2 github',
-		'website' => 'janedoe2 website',
-        'work_experience' => [
-            [
-                'position' => 'janedoe2 position',
-                'company' => 'janedoe2 company',
-                'time' => 'janedoe2 time',
-                'description' => 'janedoe2 description',
-                'achievements' => [
-                    'janedoe2 achievement 1',
-                    'janedoe2 achievement 2'
-                ],
-                'technologies' => ['janedoe2 technology 1', 'janedoe2 technology 2']
-            ],
-			[
-                'position' => 'janedoe2 position 2',
-                'company' => 'janedoe2 company',
-                'time' => 'janedoe2 time',
-                'description' => 'janedoe2 description',
-                'achievements' => [
-                    'janedoe2 achievement 1',
-                    'janedoe2 achievement 2'
-                ],
-                'technologies' => ['janedoe2 technology 1', 'janedoe2 technology 2']
-            ]
-        ],
+    'Jackson' => [
+        'image' => 'assets/images/Jackson.jpg',
+	'name' => 'Jackson Wise',
+        'role' => 'System Administrator',
+        'page' => 'detail.php?id=Jackson',
+        'email' => 'wisej8@mymail.nku.edu',
+	'phone' => '859-414-2345',
+	'summary' => "I'm a passionate Cybersecurity student with a strong foundation in linux/windows operating systems, security fundamentals, and data alogorithms and strcutures. My professional experience in retail has taught me essential communcation and problem-solving skills. I'm seeking an entry-level position to apply my skills, contribute to innovating projects, and grow my skills along side the company. Some fun facts about me: I'm double jointed in most of my joints, I'm canadian, and I have three dogs, a gecko, and a bunch of fish!",
+	'linkedin' => 'linkedin.com/in/jackson-wise-742a69214',
+	'github' => 'github.com/JacksonWiseBusiness',
+	'website' => 'jacksonwisebio.com',
+        'work_experience'=>[
+	    [
+		"position"=>"Guest Service Advocate",
+		"company"=>"Target",
+		"time"=>"2021 - Present",
+		"description"=>"As a guest advocate, I'm expected to ensure each and every customer that enters the store has the proper guest experience. My goal is to make shopping quick and easy for guests at the checklanes, guest services, gift registry, pick-up and drive up while ensuring exceptional quality",
+		"achievements"=>[
+				"Employee of the Month",
+				"Trained and mentored dozens of new employees, leading to improved team performance and customer service.",
+				"Continuously ensured weekly loyalty goals were met",
+		],
+		"technologies"=>[
+			"Zebra Technologies",
+			"POS Systems",
+		],
+	    ],
+	    [
+		"position"=>"Landscaper",
+		"company"=>"Self-Employed",
+		"time"=>"2018 - 2020",
+		"description"=>"As a self-employed landscaper, I was expected to handle my own networking to reach my services to clients. Once I managed to attain clients, I would use effective communication to tailor my services my client's lawncare specifications. I Performed regular maintenance tasks, such as mowing, trimming, pruning, and watering to ensure the appearance of lawns and gardens.",
+		"achievements"=>[
+			"Was able to manage 10 different client's lawns at a young age ",
+			"Ensured customer satisfaction rating by delivering high-quality landscaping services and maintaining clear communication.",
+		],
+		"technologies"=>[
+			"Social Media",
+		],
+	    ],
+	],
         'projects' => [
             [
-                'title' => 'janedoe2 project title',
-                'image' => 'assets/images/janedoe2project.png',
-                'description' => 'janedoe2 project description',
-                'link' => '#'
-            ]
+                "name"=>"Deep Space Fix - Text-Based Game",
+		"image"=>"assets/images/project1.jpg",
+		"description"=>"Deep Space Fix is a text-based game I created using python. In this game, you are an astronaunt who got stranded in space after an astroid hit your spacecraft. The goal of this game is to explore the ship to find the tools required to repair the damages.",
+		"link"=>"#",
+            ],
+	    [
+                "name"=>"Web Developers turned Critics",
+		"image"=>"assets/images/project2.jpg",
+		"description"=>"This is a website created using HTML/CSS/Javascript that allows the us, the web developer, to give our own reviews of movies we've recently seen. Users are also able to submit their own review score to add to the current score of the recent movie we've rated.",
+		"link"=>"#"
+            ],
+	    [
+                "name"=>"AWS Application Loadbalancer",
+		"image"=>"assets/images/project3.jpg",
+		"description"=>"I used AWS to create an application loadbalancer to balance the load of traffic to EC2 instances. It also had subnets in different avaiablility zones to allow for quickload times for users in these different zones.",
+		"link"=>"#",
+            ],
         ],
         'skills' => [
             [
-                'name' => 'janedoe2 skill 1',
-                'progress' => 70
+                'name' => 'Problem-Solving',
+                'progress' => 96
             ],
-			[
-                'name' => 'janedoe2 skill 2',
-                'progress' => 70
-            ]
+	    [
+                'name' => 'Communication',
+                'progress' => 96
+            ],
+	    [
+                'name' => 'Adaptability',
+                'progress' => 93
+            ],
+	    [
+                'name' => 'Java',
+                'progress' => 93
+            ],
+	    [
+                'name' => "Windows/Linux OS",
+                'progress' => 90
+            ],
         ],
         'other_skills' => [
-            'janedoe2 other skill 1',
-			'janedoe2 other skill 2'
+            "AWS", "Wireshark", "Autopsy", "VSCode", "MySQL", "Teamwork", "MISP", "Python",
         ],
         'education' => [
             [
-                'degree' => 'janedoe2 degree',
-                'organization' => 'janedoe2 organization',
-                'time' => 'janedoe2 education time'
+                "degree"=>"Seeking BSc in you",
+		"organization"=>"any university",
+		"time"=>"2020 - Present",
             ]
         ],
         'awards' => [
             [
-                'name' => 'janedoe2 award 1',
-                'description' => 'janedoe2 award description'
+                "name"=>"President's Honors List",
+		"description"=>"Student's who've earned a 4.0 GPA in a semester",
             ]
         ],
         'languages' => [
             [
-                'name' => 'janedoe2 language',
-                'proficiency' => 'janedoe2 proficiency'
+                "name"=>"English",
+		"proficiency"=>"Native"
             ],
-			[
-                'name' => 'janedoe2 language 2',
-                'proficiency' => 'janedoe2 proficiency 2'
-            ]
         ],
         'interests' => [
-            'janedoe2 interest 1'
+            "Video games", "Movies/Shows", "Hiking", "Legos",
         ]
     ],
 	
-	'JaneDoe3' => [
+    'JaneDoe3' => [
         'image' => 'assets/images/janedoe3.jpg',
-		'name' => 'janedoe3 name',
+	'name' => 'janedoe3 name',
         'role' => 'janedoe3 role',
         'page' => 'detail.php?id=janedoe3',
         'email' => 'janedoe3@nku.edu',
@@ -288,10 +312,9 @@ $team = [
             'janedoe3 interest 1'
         ]
     ],
-	
-	'JaneDoe4' => [
+    'JaneDoe4' => [
         'image' => 'assets/images/janedoe4.jpg',
-		'name' => 'janedoe4 name',
+	'name' => 'janedoe4 name',
         'role' => 'janedoe4 role',
         'page' => 'detail.php?id=janedoe4',
         'email' => 'janedoe4@nku.edu',
