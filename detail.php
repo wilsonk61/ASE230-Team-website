@@ -1,4 +1,5 @@
 <?php
+require_once('functions.php');
 $team = [
     'kyle' => [
         'image' => 'assets/images/kyle.png',
@@ -471,32 +472,7 @@ $person = $team[$id];
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
-									<?php foreach ($person['work_experience'] as $experience): ?>
-										<article class="resume-timeline-item position-relative pb-5">
-											<div class="resume-timeline-item-header mb-2">
-												<div class="d-flex flex-column flex-md-row">
-													<h3 class="resume-position-title font-weight-bold mb-1"><?= $experience['position'] ?></h3>
-													<div class="resume-company-name ms-auto"><?= $experience['company'] ?></div>
-												</div><!--//row-->
-												<div class="resume-position-time"><?= $experience['time'] ?></div>
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<p><?= $experience['description'] ?></p>
-												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-												<ul>
-													<?php foreach ($experience['achievements'] as $achievement): ?>
-														<li><?= $achievement ?></li>
-													<?php endforeach; ?>
-												</ul>
-												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-												<ul class="list-inline">
-													<?php foreach ($experience['technologies'] as $tech): ?>
-														<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?= $tech ?></span></li>
-													<?php endforeach; ?>
-												</ul>
-											</div><!--//resume-timeline-item-desc-->
-										</article><!--//resume-timeline-item-->
-									<?php endforeach; ?>								    
+							    	<?php foreach ($person['work_experience'] as $experience) displayWorkExperience($experience) ?>					    
 							    </div><!--//resume-timeline-->						    
 						    </div>
 					    </section><!--//projects-section-->
