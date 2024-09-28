@@ -1,8 +1,11 @@
 <?php
+require_once('functions.php');
+
 $team = [
     'kyle' => [
         'image' => 'assets/images/kyle.png',
-	'name' => 'Kyle',
+		'name' => 'Kyle',
+		'dob' => '2004-05-24',
         'role' => 'Security Analyst',
         'page' => 'detail.php?id=kyle',
         'email' => 'wilsonk61@nku.edu',
@@ -59,9 +62,9 @@ $team = [
                 'link' => '#'
             ],
             [
-                'title' => 'Project 2',
+                'title' => 'Homelab IDS',
                 'image' => 'assets/images/onion.PNG',
-                'description' => 'Brief description of Project 2.',
+                'description' => 'Configured a netowrk to support IDS software in a homelab enviornment.',
                 'link' => '#'
             ]
         ],
@@ -120,15 +123,16 @@ $team = [
 	
     'Jackson' => [
         'image' => 'assets/images/Jackson.jpg',
-	'name' => 'Jackson Wise',
+		'name' => 'Jackson Wise',
+		'dob' => '2003-06-21',
         'role' => 'System Administrator',
         'page' => 'detail.php?id=Jackson',
         'email' => 'wisej8@mymail.nku.edu',
-	'phone' => '859-414-2345',
-	'summary' => "I'm a passionate Cybersecurity student with a strong foundation in linux/windows operating systems, security fundamentals, and data alogorithms and strcutures. My professional experience in retail has taught me essential communcation and problem-solving skills. I'm seeking an entry-level position to apply my skills, contribute to innovating projects, and grow my skills along side the company. Some fun facts about me: I'm double jointed in most of my joints, I'm canadian, and I have three dogs, a gecko, and a bunch of fish!",
-	'linkedin' => 'linkedin.com/in/jackson-wise-742a69214',
-	'github' => 'github.com/JacksonWiseBusiness',
-	'website' => 'jacksonwisebio.com',
+		'phone' => '859-414-2345',
+		'summary' => "I'm a passionate Cybersecurity student with a strong foundation in linux/windows operating systems, security fundamentals, and data alogorithms and strcutures. My professional experience in retail has taught me essential communcation and problem-solving skills. I'm seeking an entry-level position to apply my skills, contribute to innovating projects, and grow my skills along side the company. Some fun facts about me: I'm double jointed in most of my joints, I'm canadian, and I have three dogs, a gecko, and a bunch of fish!",
+		'linkedin' => 'linkedin.com/in/jackson-wise-742a69214',
+		'github' => 'github.com/JacksonWiseBusiness',
+		'website' => 'jacksonwisebio.com',
         'work_experience'=>[
 	    [
 		"position"=>"Guest Service Advocate",
@@ -161,19 +165,19 @@ $team = [
 	],
         'projects' => [
             [
-                "name"=>"Deep Space Fix - Text-Based Game",
+                "title"=>"Deep Space Fix - Text-Based Game",
 		"image"=>"assets/images/project1.jpg",
 		"description"=>"Deep Space Fix is a text-based game I created using python. In this game, you are an astronaunt who got stranded in space after an astroid hit your spacecraft. The goal of this game is to explore the ship to find the tools required to repair the damages.",
 		"link"=>"#",
             ],
 	    [
-                "name"=>"Web Developers turned Critics",
+                "title"=>"Web Developers turned Critics",
 		"image"=>"assets/images/project2.jpg",
 		"description"=>"This is a website created using HTML/CSS/Javascript that allows the us, the web developer, to give our own reviews of movies we've recently seen. Users are also able to submit their own review score to add to the current score of the recent movie we've rated.",
 		"link"=>"#"
             ],
 	    [
-                "name"=>"AWS Application Loadbalancer",
+                "title"=>"AWS Application Loadbalancer",
 		"image"=>"assets/images/project3.jpg",
 		"description"=>"I used AWS to create an application loadbalancer to balance the load of traffic to EC2 instances. It also had subnets in different avaiablility zones to allow for quickload times for users in these different zones.",
 		"link"=>"#",
@@ -207,20 +211,20 @@ $team = [
         'education' => [
             [
                 "degree"=>"Seeking BSc in you",
-		"organization"=>"any university",
-		"time"=>"2020 - Present",
+				"organization"=>"any university",
+				"time"=>"2020 - Present",
             ]
         ],
         'awards' => [
             [
                 "name"=>"President's Honors List",
-		"description"=>"Student's who've earned a 4.0 GPA in a semester",
+				"description"=>"Student's who've earned a 4.0 GPA in a semester",
             ]
         ],
         'languages' => [
             [
                 "name"=>"English",
-		"proficiency"=>"Native"
+				"proficiency"=>"Native"
             ],
         ],
         'interests' => [
@@ -228,173 +232,95 @@ $team = [
         ]
     ],
 	
-    'JaneDoe3' => [
-        'image' => 'assets/images/janedoe3.jpg',
-	'name' => 'janedoe3 name',
-        'role' => 'janedoe3 role',
-        'page' => 'detail.php?id=janedoe3',
-        'email' => 'janedoe3@nku.edu',
-		'phone' => 'janedoe3 phone',
-		'summary' => 'janedoe3 summary',
-		'linkedin' => 'janedoe3 linkedin',
-		'github' => 'janedoe3 github',
-		'website' => 'janedoe3 website',
+    'John' => [
+        'image' => 'assets/images/chuck.jpg',
+		'name' => 'John Doe',
+		'dob' => '2000-06-22',
+        'role' => 'Language Interpreter',
+        'page' => 'detail.php?id=John',
+        'email' => 'johndoe3@nku.edu',
+		'phone' => '911-911-9191',
+		'summary' => 'AI Dummy Info: Experienced and culturally attuned language interpreter with over 7 years of experience bridging communication between diverse populations. Fluent in English, Spanish, and Portuguese, with working knowledge of French. Highly skilled in real-time interpretation and document translation for a variety of sectors, including legal, medical, and business environments. Known for accuracy, professionalism, and a deep understanding of cultural nuances. Strong multitasker with excellent active listening skills and a passion for facilitating understanding across linguistic barriers.',
+		'linkedin' => 'johndoe3.linkedin.com',
+		'github' => 'johndoe3.github.com',
+		'website' => 'johndoe3.website.com',
         'work_experience' => [
             [
-                'position' => 'janedoe3 position',
-                'company' => 'janedoe3 company',
-                'time' => 'janedoe3 time',
-                'description' => 'janedoe3 description',
-                'achievements' => [
-                    'janedoe3 achievement 1',
-                    'janedoe3 achievement 2'
-                ],
-                'technologies' => ['janedoe3 technology 1', 'janedoe3 technology 2']
-            ],
+				'position' => 'Senior Language Interpreter',
+				'company' => 'Global Translations, Inc.',
+				'time' => 'January 2018 - Present',
+				'description' => 'Provide real-time interpretation and translation services for a variety of clients, specializing in legal and medical fields. Collaborate with diverse teams to ensure seamless communication between English, Spanish, and Portuguese speakers.',
+				'achievements' => [
+					'Successfully interpreted for over 500 high-profile legal cases, ensuring accurate communication between non-English speakers and attorneys.',
+					'Developed a standardized glossary for medical terminology in Spanish and Portuguese, enhancing team efficiency.'
+				],
+				'technologies' => ['MemoQ', 'Wordfast']
+			],
 			[
-                'position' => 'janedoe3 position 2',
-                'company' => 'janedoe3 company',
-                'time' => 'janedoe3 time',
-                'description' => 'janedoe3 description',
-                'achievements' => [
-                    'janedoe3 achievement 1',
-                    'janedoe3 achievement 2'
-                ],
-                'technologies' => ['janedoe3 technology 1', 'janedoe3 technology 2']
-            ]
+				'position' => 'Freelance Language Interpreter',
+				'company' => 'Freelance',
+				'time' => 'June 2015 - December 2017',
+				'description' => 'Provided freelance interpretation services for a variety of industries, including business, healthcare, and media. Assisted in translating documents, live events, and personal communications.',
+				'achievements' => [
+					'Interpreted at international conferences with up to 200 attendees, contributing to successful cross-cultural business negotiations.',
+					'Translated over 50 business contracts between English and Portuguese, ensuring legal compliance and clarity.'
+				],
+				'technologies' => ['SDL Trados Studio', 'Zoom for interpretation']
+			]
         ],
         'projects' => [
-            [
-                'title' => 'janedoe3 project title',
-                'image' => 'assets/images/janedoe3project.png',
-                'description' => 'janedoe3 project description',
-                'link' => '#'
-            ]
-        ],
-        'skills' => [
-            [
-                'name' => 'janedoe3 skill 1',
-                'progress' => 70
-            ],
 			[
-                'name' => 'janedoe3 skill 2',
-                'progress' => 70
-            ]
-        ],
-        'other_skills' => [
-            'janedoe3 other skill 1',
-			'janedoe3 other skill 2'
-        ],
-        'education' => [
-            [
-                'degree' => 'janedoe3 degree',
-                'organization' => 'janedoe3 organization',
-                'time' => 'janedoe3 education time'
-            ]
-        ],
-        'awards' => [
-            [
-                'name' => 'janedoe3 award 1',
-                'description' => 'janedoe3 award description'
-            ]
-        ],
-        'languages' => [
-            [
-                'name' => 'janedoe3 language',
-                'proficiency' => 'janedoe3 proficiency'
-            ],
+				'title' => 'Real-time Translation App',
+				'image' => 'assets/images/app.jpg',
+				'description' => 'Developed a real-time translation mobile application that supports multilingual voice-to-text translations, allowing users to communicate seamlessly in different languages.',
+				'link' => '#'
+			]
+		],
+		'skills' => [
 			[
-                'name' => 'janedoe3 language 2',
-                'proficiency' => 'janedoe3 proficiency 2'
-            ]
-        ],
-        'interests' => [
-            'janedoe3 interest 1'
-        ]
-    ],
-    'JaneDoe4' => [
-        'image' => 'assets/images/janedoe4.jpg',
-	'name' => 'janedoe4 name',
-        'role' => 'janedoe4 role',
-        'page' => 'detail.php?id=janedoe4',
-        'email' => 'janedoe4@nku.edu',
-		'phone' => 'janedoe4 phone',
-		'summary' => 'janedoe4 summary',
-		'linkedin' => 'janedoe4 linkedin',
-		'github' => 'janedoe4 github',
-		'website' => 'janedoe4 website',
-        'work_experience' => [
-            [
-                'position' => 'janedoe4 position',
-                'company' => 'janedoe4 company',
-                'time' => 'janedoe4 time',
-                'description' => 'janedoe4 description',
-                'achievements' => [
-                    'janedoe4 achievement 1',
-                    'janedoe4 achievement 2'
-                ],
-                'technologies' => ['janedoe4 technology 1', 'janedoe4 technology 2']
-            ],
+				'name' => 'Simultaneous Interpretation',
+				'progress' => 85
+			],
 			[
-                'position' => 'janedoe4 position 2',
-                'company' => 'janedoe4 company',
-                'time' => 'janedoe4 time',
-                'description' => 'janedoe4 description',
-                'achievements' => [
-                    'janedoe4 achievement 1',
-                    'janedoe4 achievement 2'
-                ],
-                'technologies' => ['janedoe4 technology 1', 'janedoe4 technology 2']
-            ]
-        ],
-        'projects' => [
-            [
-                'title' => 'janedoe4 project title',
-                'image' => 'assets/images/janedoe4project.png',
-                'description' => 'janedoe4 project description',
-                'link' => '#'
-            ]
-        ],
-        'skills' => [
-            [
-                'name' => 'janedoe4 skill 1',
-                'progress' => 70
-            ],
+				'name' => 'Document Translation',
+				'progress' => 90
+			]
+		],
+		'other_skills' => [
+			'Cultural Sensitivity',
+			'Active Listening'
+		],
+		'education' => [
 			[
-                'name' => 'janedoe4 skill 2',
-                'progress' => 70
-            ]
-        ],
-        'other_skills' => [
-            'janedoe4 other skill 1',
-			'janedoe4 other skill 2'
-        ],
-        'education' => [
-            [
-                'degree' => 'janedoe4 degree',
-                'organization' => 'janedoe4 organization',
-                'time' => 'janedoe4 education time'
-            ]
-        ],
-        'awards' => [
-            [
-                'name' => 'janedoe4 award 1',
-                'description' => 'janedoe4 award description'
-            ]
-        ],
-        'languages' => [
-            [
-                'name' => 'janedoe4 language',
-                'proficiency' => 'janedoe4 proficiency'
-            ],
+				'degree' => 'Bachelor of Arts in Linguistics',
+				'organization' => 'University of California, Berkeley',
+				'time' => '2013 - 2017'
+			]
+		],
+		'awards' => [
 			[
-                'name' => 'janedoe4 language 2',
-                'proficiency' => 'janedoe4 proficiency 2'
-            ]
-        ],
-        'interests' => [
-            'janedoe4 interest 1'
-        ]
+				'name' => 'Interpreter of the Year Award',
+				'description' => 'Recognized as the top interpreter for outstanding performance in legal and medical translation services at Global Translations, Inc.'
+			]
+		],
+		'languages' => [
+			[
+				'name' => 'English',
+				'proficiency' => 'Native'
+			],
+			[
+				'name' => 'Spanish',
+				'proficiency' => 'Fluent'
+			],
+			[
+				'name' => 'Portuguese',
+				'proficiency' => 'Fluent'
+			]
+		],
+		'interests' => [
+			'Cross-Cultural Communication',
+			'Traveling and Learning New Languages'
+		]
     ]
 ];
 
@@ -440,7 +366,9 @@ $person = $team[$id];
 					    <div class="row p-4 justify-content-center justify-content-md-between">
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?= $person['name'] ?></h1>
-							    <div class="title mb-3"><?= $person['role']?></div>
+							    <div class="title mb-1"><?= $person['role']?></div>
+								<?= 'Age: ' . calculateAge($person['dob']); ?>
+								<div style="margin: 10px;"></div>
 							    <ul class="list-unstyled">
 								    <li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?= $person['email']?></a></li>
 								    <li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i><?= $person['phone']?></a></li>
@@ -454,7 +382,6 @@ $person = $team[$id];
 							    </ul>
 						    </div><!--//secondary-info-->
 					    </div><!--//row-->
-					    
 				    </div><!--//col-->
 			    </div><!--//row-->
 		    </header>
@@ -471,32 +398,7 @@ $person = $team[$id];
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
-									<?php foreach ($person['work_experience'] as $experience): ?>
-										<article class="resume-timeline-item position-relative pb-5">
-											<div class="resume-timeline-item-header mb-2">
-												<div class="d-flex flex-column flex-md-row">
-													<h3 class="resume-position-title font-weight-bold mb-1"><?= $experience['position'] ?></h3>
-													<div class="resume-company-name ms-auto"><?= $experience['company'] ?></div>
-												</div><!--//row-->
-												<div class="resume-position-time"><?= $experience['time'] ?></div>
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<p><?= $experience['description'] ?></p>
-												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-												<ul>
-													<?php foreach ($experience['achievements'] as $achievement): ?>
-														<li><?= $achievement ?></li>
-													<?php endforeach; ?>
-												</ul>
-												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-												<ul class="list-inline">
-													<?php foreach ($experience['technologies'] as $tech): ?>
-														<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?= $tech ?></span></li>
-													<?php endforeach; ?>
-												</ul>
-											</div><!--//resume-timeline-item-desc-->
-										</article><!--//resume-timeline-item-->
-									<?php endforeach; ?>								    
+									<?php foreach ($person['work_experience'] as $experience) displayWorkExperience($experience) ?>			
 							    </div><!--//resume-timeline-->						    
 						    </div>
 					    </section><!--//projects-section-->
