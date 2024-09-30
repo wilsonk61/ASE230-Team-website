@@ -395,7 +395,9 @@ $person = $team[$id];
                             <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
                             <div class="resume-section-content">
                                 <div class="resume-timeline position-relative">
-                                    <?php foreach ($person['work_experience'] as $experience) displayWorkExperience($experience) ?>         
+                                    <?php foreach ($person['work_experience'] as $experience) {
+                                        displayWorkExperience($experience); 
+                                    } ?>         
                                 </div><!--//resume-timeline-->                          
                             </div>
                         </section><!--//projects-section-->
