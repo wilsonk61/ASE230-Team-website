@@ -5,21 +5,18 @@ $team = [
         'name' => 'Kyle',
         'dob' => '2004-05-24',
         'role' => 'Security Analyst',
-        'page' => 'detail.php?id=kyle',
         'image' => 'assets/images/kyle.png'
     ],
     'Jackson' => [
         'name' => 'Jackson',
         'dob' => '2003-06-21',
         'role' => 'System Administrator',
-        'page' => 'detail.php?id=Jackson',
         'image' => 'assets/images/Jackson.jpg'
     ],
     'John' => [
         'name' => 'John AI Doe',
         'dob' => '2000-06-22',
         'role' => 'Language Interpreter',
-        'page' => 'detail.php?id=JaneDoe3',
         'image' => 'assets/images/chuck.jpg'
     ]
 ];
